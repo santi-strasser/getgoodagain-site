@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Good Again Artisan Bread</title>
+<meta name="description" content="Freedom to enjoy the foods you love, again. Good Again is a new, founder-led artisan bread brand with 50% less net carbs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/form.js" defer></script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <span class="brand-word">Good Again</span>
+  </div>
+</header>
+
+<section class="hero">
+  <img class="hero-watermark" src="/assets/images/logo-wordmark.png" alt="">
+  <div class="wrap hero-inner">
+    <p class="hero-eyebrow">Welcome back</p>
+    <p class="hero-eyebrow" style="margin-bottom:0;">to bread</p>
+
+    <div class="wavy-divider">〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰<br>〰 〰</div>
+
+    <div class="hero-columns wrap-narrow" style="max-width:1000px;">
+      <div>
+        <h1 class="hero-tagline">Freedom to enjoy the foods you love, again.</h1>
+        <p class="hero-copy">We're a new, founder-led brand passionate about helping people find simple changes to bring back the joy they once had from their favorite foods.</p>
+      </div>
+      <div class="hero-photo">
+        <img src="/assets/images/hero-bread-photo.jpg" alt="Sliced artisan bread on a wooden board">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2 class="section-eyebrow">Our Breads</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <img src="/assets/images/product-golden-grain.png" alt="Good Again Golden Grain artisan bread package">
+        <h3>Golden Grain</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique est dolor, a ornare orci ultricies eget.</p>
+      </div>
+      <div class="product-card">
+        <img src="/assets/images/product-brioche.png" alt="Good Again Brioche artisan bread package">
+        <h3>Brioche</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique est dolor, a ornare orci ultricies eget.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section testimonials-section">
+  <div class="wrap">
+    <h2 class="section-eyebrow">What People Are Saying</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p>"A professional team that delivers on their promises. Their attention to detail and commitment to quality truly stood out throughout the entire project. We've already recommended them to others and would be happy to work with them again any time."</p>
+        <div class="testimonial-attr">— Former Customer</div>
+      </div>
+      <div class="testimonial-card">
+        <p>"Creative, reliable, and genuinely passionate about what they do. Communication was top-notch and the final outcome was even better than we imagined. A great experience all around. If you're looking for great partners, you've come to the right place."</p>
+        <div class="testimonial-attr">— Former Customer</div>
+      </div>
+      <div class="testimonial-card">
+        <p>"Every detail was thoughtfully executed. We're thrilled with the outcome — it's been such a worthwhile investment to work with a team of genuinely passionate people who not only care about the results, but also care about their clients as people."</p>
+        <div class="testimonial-attr">— Former Customer</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section waitlist-section">
+  <div class="wrap">
+    <p class="waitlist-heading">We're not quite on shelves yet… but we'd love for you to follow the journey and we'll let you know as soon as we debut.</p>
+
+    <form class="waitlist-form w3f-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="PENDING_ACCESS_KEY">
+      <input type="hidden" name="subject" value="New waitlist signup from getgoodagain.com">
+      <input type="checkbox" name="botcheck" class="hp-field" tabindex="-1" autocomplete="off">
+      <div class="field-group">
+        <input type="email" name="email" placeholder="Email" required>
+        <div class="checkbox-row">
+          <input type="checkbox" id="signup" name="Sign up for news and updates" checked>
+          <label for="signup">Sign up for news and updates</label>
+        </div>
+      </div>
+      <button class="waitlist-btn" type="submit">Keep Me Posted</button>
+    </form>
+    <p class="form-status" role="status"></p>
+  </div>
+</section>
+
+<section class="section about-section">
+  <div class="wrap-narrow">
+    <h2 class="section-eyebrow">About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique est dolor, a ornare orci ultricies eget. Nunc sapien nibh, accumsan non tempor et, laoreet ut libero. Cras aliquet arcu sapien.</p>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <p>&copy; <span id="y"></span> Good Again Artisan Bread</p>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
