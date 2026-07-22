@@ -14,7 +14,7 @@ html{scroll-behavior:smooth;}
 body{
   background:var(--cream);
   color:var(--navy);
-  font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;
+  font-family:'Hanken Grotesk',system-ui,-apple-system,sans-serif;
   font-weight:600;
   line-height:1.5;
   font-size:1.1rem;
@@ -28,12 +28,12 @@ img{max-width:100%; display:block;}
 a{color:inherit;}
 
 .display{
-  font-family:'Fredoka',system-ui,sans-serif;
-  font-weight:700;
+  font-family:'Luckiest Guy',system-ui,sans-serif;
+  font-weight:400;
   text-transform:uppercase;
   color:var(--navy);
-  line-height:0.92;
-  letter-spacing:-0.01em;
+  line-height:1;
+  letter-spacing:0.01em;
 }
 
 /* ---- Recurring blue band divider ---- */
@@ -117,8 +117,8 @@ a{color:inherit;}
   margin:0 auto 30px;
 }
 .product-card h3{
-  font-family:'Fredoka',sans-serif;
-  font-weight:700;
+  font-family:'Luckiest Guy',sans-serif;
+  font-weight:400;
   text-transform:uppercase;
   font-size:1.9rem;
   color:var(--navy);
@@ -169,8 +169,8 @@ a{color:inherit;}
 /* ---- Waitlist ---- */
 .waitlist-section{background:var(--cream); text-align:center;}
 .waitlist-heading{
-  font-family:'Fredoka',sans-serif;
-  font-weight:700;
+  font-family:'Luckiest Guy',sans-serif;
+  font-weight:400;
   text-transform:uppercase;
   font-size:clamp(1.4rem, 3.6vw, 2.1rem);
   max-width:820px;
@@ -210,8 +210,8 @@ a{color:inherit;}
   border:none;
   border-radius:100px;
   padding:16px 30px;
-  font-family:'Fredoka',sans-serif;
-  font-weight:600;
+  font-family:'Luckiest Guy',sans-serif;
+  font-weight:400;
   text-transform:uppercase;
   font-size:0.95rem;
   cursor:pointer;
