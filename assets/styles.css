@@ -63,8 +63,6 @@ a{color:inherit;}
 .hero-headline{
   font-size:clamp(3rem, 11vw, 8rem);
   padding:0 10px;
-  color:#fff;
-  text-shadow:0 2px 14px rgba(2,50,64,0.6);
   position:relative;
   z-index:2;
 }
