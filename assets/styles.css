@@ -63,18 +63,20 @@ a{color:inherit;}
   font-size:clamp(3rem, 11vw, 8rem);
   padding:0 10px;
 }
-.hero-photo-wrap{
+.hero-photo-frame{
   max-width:900px;
   margin:18px auto;
+  position:relative;
+}
+.hero-photo-wrap{
   border-radius:50%;
   overflow:hidden;
   aspect-ratio:16/10;
-  position:relative;
 }
 .hero-photo-wrap img{width:100%; height:100%; object-fit:cover;}
-.hero-photo-wrap .hero-sun{
-  position:absolute; bottom:6%; right:4%;
-  width:11%;
+.hero-photo-frame .hero-sun{
+  position:absolute; bottom:-4%; right:2%;
+  width:13%;
   filter:drop-shadow(0 2px 4px rgba(2,50,64,0.15));
 }
 
