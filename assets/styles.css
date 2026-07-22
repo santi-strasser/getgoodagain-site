@@ -4,7 +4,7 @@
   --navy:#023240;
   --yellow:#F4CC1A;
   --blue:#1AA8EF;
-  --maxw:1180px;
+  --maxw:1500px;
   --maxw-narrow:820px;
 }
 
@@ -35,6 +35,7 @@ a{color:inherit;}
   line-height:1;
   letter-spacing:0.01em;
 }
+.fit-text{white-space:nowrap;}
 
 /* ---- Recurring blue band divider ---- */
 .band{
@@ -89,7 +90,7 @@ a{color:inherit;}
 }
 
 .tagline-block{padding:50px 0 60px; text-align:center;}
-.tagline-block .display{font-size:clamp(2.4rem, 7.5vw, 5rem); max-width:1000px; margin:0 auto;}
+.tagline-block .display{font-size:clamp(2.4rem, 7.5vw, 5rem); margin:0 auto;}
 .tagline-copy{
   max-width:600px;
   margin:34px auto 0;
