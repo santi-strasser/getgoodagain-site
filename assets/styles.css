@@ -291,4 +291,5 @@ footer.site{background:var(--navy); text-align:center; padding-bottom:50px;}
   .footer-inner{flex-direction:column;}
   .footer-inner img{width:clamp(120px, 38vw, 210px);}
   .section-head img{width:clamp(90px, 30vw, 160px);}
+  .hero-headline:first-of-type{margin-top:32px; margin-bottom:-36px;}
 }
