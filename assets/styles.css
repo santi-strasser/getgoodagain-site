@@ -97,7 +97,7 @@ a{color:inherit;}
 }
 .marquee-track{
   display:inline-flex;
-  animation:marquee-scroll 9s linear infinite;
+  animation:marquee-scroll 22s linear infinite;
 }
 .marquee-track span{flex:0 0 auto; padding-right:0.2em;}
 @keyframes marquee-scroll{
