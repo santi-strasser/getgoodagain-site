@@ -289,4 +289,5 @@ footer.site{background:var(--navy); text-align:center; padding-bottom:50px;}
   .waitlist-form{flex-direction:column; align-items:stretch;}
   .waitlist-btn{width:100%;}
   .footer-inner{flex-direction:column;}
+  .footer-inner img{width:clamp(120px, 38vw, 210px);}
 }
