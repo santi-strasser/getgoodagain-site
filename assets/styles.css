@@ -60,6 +60,7 @@ a{color:inherit;}
 
 /* ---- Hero ---- */
 .hero{background:var(--cream); text-align:center; overflow:hidden;}
+.hero .wrap{position:relative;}
 .hero-headline{
   font-size:clamp(3rem, 11vw, 8rem);
   padding:0 10px;
@@ -80,10 +81,10 @@ a{color:inherit;}
   aspect-ratio:16/10;
 }
 .hero-photo-wrap img{width:100%; height:100%; object-fit:cover;}
-.hero-photo-frame .hero-sun{
-  position:absolute; top:-10%; right:-10%;
+.hero-sun{
+  position:absolute; top:0; right:20px;
   z-index:3;
-  width:13%;
+  width:clamp(70px, 9vw, 130px);
   filter:drop-shadow(0 2px 4px rgba(2,50,64,0.15));
 }
 
@@ -247,16 +248,16 @@ a{color:inherit;}
 .testimonial-card p{
   color:var(--white);
   font-weight:700;
-  font-size:1rem;
-  line-height:1.6;
+  font-size:1.55rem;
+  line-height:1.4;
 }
 .testimonial-card cite{
   display:block;
-  margin-top:12px;
+  margin-top:16px;
   color:var(--navy);
   font-style:normal;
   font-weight:700;
-  font-size:0.9rem;
+  font-size:1.15rem;
 }
 
 /* ---- Waitlist ---- */
