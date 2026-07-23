@@ -19,9 +19,9 @@ document.querySelectorAll('form.waitlist-form').forEach(function (form) {
     fetch('https://a.klaviyo.com/client/subscriptions?company_id=' + KLAVIYO_PUBLIC_KEY, {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-        revision: '2024-10-15'
+        'Content-Type': 'application/vnd.api+json',
+        Accept: 'application/vnd.api+json',
+        revision: '2026-07-15'
       },
       body: JSON.stringify({
         data: {
