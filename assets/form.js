@@ -1,21 +1,50 @@
-document.querySelectorAll('form.w3f-form').forEach(function (form) {
+var KLAVIYO_PUBLIC_KEY = 'UfmvKG';
+var KLAVIYO_LIST_ID = 'WcGpR2';
+
+document.querySelectorAll('form.waitlist-form').forEach(function (form) {
   var status = form.querySelector('.form-status');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
+
+    var honeypot = form.querySelector('.hp-field');
+    if (honeypot && honeypot.checked) return;
+
+    var email = form.querySelector('input[type="email"]').value;
     var btn = form.querySelector('button[type="submit"]');
     var originalLabel = btn.textContent;
     btn.disabled = true;
     btn.textContent = 'Sending...';
     status.textContent = '';
 
-    fetch(form.action, {
+    fetch('https://a.klaviyo.com/client/subscriptions?company_id=' + KLAVIYO_PUBLIC_KEY, {
       method: 'POST',
-      headers: { Accept: 'application/json' },
-      body: new FormData(form)
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+        revision: '2024-10-15'
+      },
+      body: JSON.stringify({
+        data: {
+          type: 'subscription',
+          attributes: {
+            profile: {
+              data: {
+                type: 'profile',
+                attributes: {
+                  email: email,
+                  subscriptions: { email: { marketing: { consent: 'SUBSCRIBED' } } }
+                }
+              }
+            }
+          },
+          relationships: {
+            list: { data: { type: 'list', id: KLAVIYO_LIST_ID } }
+          }
+        }
+      })
     })
-      .then(function (res) { return res.json(); })
-      .then(function (data) {
-        if (data.success) {
+      .then(function (res) {
+        if (res.ok) {
           form.reset();
           status.textContent = "You're on the list – we'll let you know as soon as we debut.";
         } else {
