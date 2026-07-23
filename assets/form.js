@@ -2,7 +2,7 @@ var KLAVIYO_PUBLIC_KEY = 'UfmvKG';
 var KLAVIYO_LIST_ID = 'WcGpR2';
 
 document.querySelectorAll('form.waitlist-form').forEach(function (form) {
-  var status = form.querySelector('.form-status');
+  var status = form.parentElement.querySelector('.form-status');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
 
