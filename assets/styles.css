@@ -171,7 +171,7 @@ a{color:inherit;}
 .pattern-strip{
   height:70px;
   background-color:var(--yellow);
-  background-image:url('/assets/images/pattern-sun.png');
+  background-image:url('/assets/images/pattern-sun.webp');
   background-size:180px;
   background-blend-mode:soft-light;
   opacity:0.9;
@@ -180,7 +180,7 @@ a{color:inherit;}
 /* ---- Testimonials ---- */
 .testimonials-section{
   background-color:var(--yellow);
-  background-image:url('/assets/images/pattern-sun.png');
+  background-image:url('/assets/images/pattern-sun.webp');
   background-size:220px;
   background-blend-mode:soft-light;
 }
