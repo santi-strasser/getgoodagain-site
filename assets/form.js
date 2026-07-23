@@ -46,7 +46,7 @@ document.querySelectorAll('form.waitlist-form').forEach(function (form) {
       .then(function (res) {
         if (res.ok) {
           form.reset();
-          status.textContent = "You're on the list – we'll let you know as soon as we debut.";
+          status.textContent = "You're on the list – we'll let you know as soon as we launch.";
         } else {
           status.textContent = 'Something went wrong. Please try again.';
         }
