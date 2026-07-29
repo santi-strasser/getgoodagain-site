@@ -63,7 +63,7 @@
     });
     if (!maxWidth) return;
 
-    var SAFETY = 0.96;
+    var SAFETY = 0.70;
     var newSize = (available / maxWidth) * BASE * SAFETY;
     newSize = Math.max(MIN_PX, Math.min(MAX_PX, newSize));
     el.style.fontSize = newSize + 'px';

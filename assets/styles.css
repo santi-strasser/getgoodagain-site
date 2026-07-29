@@ -28,7 +28,7 @@ img{max-width:100%; display:block;}
 a{color:inherit;}
 
 .display{
-  font-family:'Luckiest Guy',system-ui,sans-serif;
+  font-family:'Chango',system-ui,sans-serif;
   font-weight:400;
   text-transform:uppercase;
   color:var(--navy);
@@ -149,7 +149,7 @@ a{color:inherit;}
   margin:0 auto 30px;
 }
 .product-card h3{
-  font-family:'Luckiest Guy',sans-serif;
+  font-family:'Chango',sans-serif;
   font-weight:400;
   text-transform:uppercase;
   font-size:1.9rem;
@@ -178,7 +178,7 @@ a{color:inherit;}
   cursor:pointer;
   list-style:none;
   text-align:center;
-  font-family:'Luckiest Guy',sans-serif;
+  font-family:'Chango',sans-serif;
   font-weight:400;
   text-transform:uppercase;
   color:var(--blue);
@@ -263,7 +263,7 @@ a{color:inherit;}
 /* ---- Waitlist ---- */
 .waitlist-section{background:var(--cream); text-align:center;}
 .waitlist-heading{
-  font-family:'Luckiest Guy',sans-serif;
+  font-family:'Chango',sans-serif;
   font-weight:400;
   text-transform:uppercase;
   font-size:clamp(1.4rem, 3.6vw, 2.1rem);
@@ -304,7 +304,7 @@ a{color:inherit;}
   border:none;
   border-radius:100px;
   padding:16px 30px;
-  font-family:'Luckiest Guy',sans-serif;
+  font-family:'Chango',sans-serif;
   font-weight:400;
   text-transform:uppercase;
   font-size:0.95rem;
